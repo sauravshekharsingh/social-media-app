@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+  #flex-md {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #flex-md-1 {
+    order: 1;
+  }
+
+  #flex-md-2 {
+    order: 2;
+  }
+}
