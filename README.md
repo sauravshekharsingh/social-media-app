@@ -1,4 +1,4 @@
-# Social Media Application
+# Social Media App Project
 This project is a social media app built with Node.js, Express, MongoDB, React, and Firebase. The app allows users to connect with each other through posts, likes, comments, and profiles.
 
 ## Functionalities
@@ -48,8 +48,8 @@ npm install
 + Set up Firebase:
 
 	+ Create a Firebase account and project
-	+	Generate Firebase API keys for the project
-	+	Add the API keys to a .env file in the root directory
+	+ Generate Firebase API keys for the project
+	+ Add the API keys to a .env file in the root directory in backend
 
 ```sh
 FIREBASE_API_KEY
@@ -63,6 +63,11 @@ JWT_SECRET
 SALT_ROUNDS
 MONGO_URL
 PORT
+```
++ Add the API keys to a .env file in the root directory in frontend
+
+```sh
+REACT_APP_API_BASE_URL
 ```
 + Start the server:
 ```bash
